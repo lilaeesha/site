@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik+Moonrocks&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    background: linear-gradient(101.56deg, #2C2C2C 1.56%, #1C1C1C 95.55%);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 26px;
+}
+
+.header__logo {
+    width: 181px;
+    height: 48px;
+}
+
+.header__inner {
+    display: flex;
+    list-style: none;
+}
+
+.header__item:not(:last-child) {
+    margin-right: 150px;
+}
+
+.header__link {
+    text-decoration: none;
+    color: #E4E4E4;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro__box {
+    width: 447px;
+}
+
+.intro__headingOne {
+    font-family: 'NEXT ART';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    color: #E4E4E4;
+    margin-bottom: 27px;
+}
+
+.intro__headingTwo {
+    font-family: 'NEXT ART';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 82px;
+    display: flex;
+    align-items: center;
+    color: #E4E4E4;
+    margin-bottom: 27px;
+}
+
+.intro__text {
+    font-family: 'Arodora Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #E4E4E4;
+    margin-bottom: 27px;
+}
+
+.intro__btn {
+    background: linear-gradient(87.32deg, #E2A300 4.47%, #E29500 95.53%);
+    box-shadow: 0px 2px 13px rgba(226, 158, 0, 0.48);
+    border-radius: 6px;
+    width: 200px;
+    height: 47px;
+}
+
+.intro__img {
+    width: 632px;
+    height: 674px;
+}
